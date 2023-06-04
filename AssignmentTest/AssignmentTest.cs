@@ -25,7 +25,7 @@ namespace AssignmentTest
 
             Pack pack = new(PackMaxItems, PackMaxVolume, PackMaxWeight);
             Assert.AreEqual(pack.Add(new Bow()), true);
-            Assert.AreEqual(pack.Add(new Bow()), false);
+          Assert.AreEqual(pack.Add(new Bow()), false);
         }
     }
 }
